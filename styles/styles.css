@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.header{
+    height: 70vh;
+    background-image: url('../images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+/*Navbvar*/
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.brand{
+   display: flex;
+    text-align: center;
+   color: white;
+}
+.menu-items ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.4s ease-in-out;
+}
+.menu-items ul li a:hover{
+    color: gray;
+}
+/*Main*/
+.frutas-fondo img{
+    width: 100%;
+}
+.frutas-fondo h4{
+    position: absolute;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+.texto-encima{
+    position:absolute;
+    top:55%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+/*Testimonios*/
+.testi h5{
+    color: rgb(170, 170, 170);
+
+}
+
+/*Footer*/
+footer{
+    height: 30vh;
+    background:rgb(108, 199, 169);
+}
+footer li, footer a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(49, 128, 101);
+}
+footer h3{
+    color: rgb(22, 87, 64);
+}
+h1{
+    font-size: 60px !important;
+}
